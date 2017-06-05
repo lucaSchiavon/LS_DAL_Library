@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F83C5255-9A67-41B4-BCA9-519A5A3C57CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITryFramework2</RootNamespace>
+    <AssemblyName>ITryFramework2</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="attribute\DBAttributes.cs" />
+    <Compile Include="config\LogConfigurationSection.cs" />
+    <Compile Include="config\DALConfigurationSection.cs" />
+    <Compile Include="config\DbErrorConfigurationSection.cs" />
+    <Compile Include="config\ErrorConfigurationSection.cs" />
+    <Compile Include="config\MailConfigurationSection.cs" />
+    <Compile Include="costanti.cs" />
+    <Compile Include="data\DBMapper.cs" />
+    <Compile Include="exception\ITryFrameworkException.cs" />
+    <Compile Include="interfaces\IGenericObject.cs" />
+    <Compile Include="interfaces\ILog.cs" />
+    <Compile Include="interfaces\IModelloMail.cs" />
+    <Compile Include="managers\config\ConfigManager.cs" />
+    <Compile Include="managers\connection\ConnectionManager.cs" />
+    <Compile Include="managers\DefaultManager.cs" />
+    <Compile Include="managers\encryption\CryptoManager.cs" />
+    <Compile Include="managers\log\DBLogManager.cs" />
+    <Compile Include="managers\log\EventLogManager.cs" />
+    <Compile Include="managers\log\FileLogManager.cs" />
+    <Compile Include="managers\log\LogManager.cs" />
+    <Compile Include="managers\log\MailLogManager.cs" />
+    <Compile Include="managers\mail\MailManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="managers\documentation\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

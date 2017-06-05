@@ -1,0 +1,5 @@
+C:\PROGETTI\SWOORDS\ITryFramework2\trunk\bin\Debug\ITryFramework2.dll
+C:\PROGETTI\SWOORDS\ITryFramework2\trunk\bin\Debug\ITryFramework2.pdb
+C:\PROGETTI\SWOORDS\ITryFramework2\trunk\obj\Debug\ITryFramework2.csprojResolveAssemblyReference.cache
+C:\PROGETTI\SWOORDS\ITryFramework2\trunk\obj\Debug\ITryFramework2.dll
+C:\PROGETTI\SWOORDS\ITryFramework2\trunk\obj\Debug\ITryFramework2.pdb

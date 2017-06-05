@@ -1,0 +1,10 @@
+H:\WebTools\AQProjects\ITryFramework2\trunk\bin\Release\ITryFramework2.dll
+H:\WebTools\AQProjects\ITryFramework2\trunk\bin\Release\ITryFramework2.pdb
+H:\WebTools\AQProjects\ITryFramework2\trunk\obj\Release\ITryFramework2.csprojResolveAssemblyReference.cache
+H:\WebTools\AQProjects\ITryFramework2\trunk\obj\Release\ITryFramework2.dll
+H:\WebTools\AQProjects\ITryFramework2\trunk\obj\Release\ITryFramework2.pdb
+C:\GIT_LUCA\LS_DAL_Library\ITryFramework2\bin\Release\ITryFramework2.dll
+C:\GIT_LUCA\LS_DAL_Library\ITryFramework2\bin\Release\ITryFramework2.pdb
+C:\GIT_LUCA\LS_DAL_Library\ITryFramework2\obj\Release\ITryFramework2.csprojResolveAssemblyReference.cache
+C:\GIT_LUCA\LS_DAL_Library\ITryFramework2\obj\Release\ITryFramework2.dll
+C:\GIT_LUCA\LS_DAL_Library\ITryFramework2\obj\Release\ITryFramework2.pdb
